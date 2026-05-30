@@ -3,6 +3,7 @@ import ProjectCard from "./components/ProjectCard.tsx";
 import WorkExperienceCard from "./components/WorkExperienceCard.tsx";
 import Navbar from "./components/Navbar.tsx";
 import profilePhoto from "./assets/IsabellaGingrich.JPG";
+import resumePdf from "./assets/Resume.pdf";
 
 const bioParagraphs = [
   "Hey there! My name is Isabella Gingrich and I'm a software engineer with 4+ years of developing and maintaining full-stack applications in .NET with C#, VB.NET, JavaScript and SQL.",
@@ -36,20 +37,20 @@ const experience = [
 
 const projects = [
   {
-    title: "Weather Dashboard",
-    description: "A real-time weather app using the OpenWeather API with animated backgrounds.",
+    title: "Portfolio Website",
+    description: "The very site you're looking at — built with Vite, React, and Tailwind CSS.",
     tags: ["React", "TypeScript", "Tailwind"],
-    link: "https://github.com",
+    link: "https://www.isabellagingrich.com/",
   },
   {
-    title: "Task Manager",
-    description: "Drag-and-drop kanban board with local persistence and dark mode support.",
+    title: "Lorem Ipsum",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     tags: ["React", "Zustand", "Tailwind"],
     link: "https://github.com",
   },
   {
-    title: "Portfolio Site",
-    description: "The very site you're looking at — built with Vite, React, and Tailwind CSS.",
+    title: "Lorem Ipsum",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     tags: ["Vite", "React", "Tailwind"],
     link: "https://github.com",
   },
@@ -224,6 +225,25 @@ export default function App() {
             <div>
               <p className="text-white text-sm font-medium">GitHub</p>
               <p className="text-slate-400 text-xs">isabellagingrich</p>
+            </div>
+          </a>
+
+          <a
+            href={resumePdf}
+            download="Isabella_Gingrich_Resume.pdf"
+            className="group flex items-center gap-4 flex-1 bg-slate-900 border border-slate-800 rounded-xl p-5 hover:border-slate-600 transition-colors duration-200"
+          >
+            <span className="text-emerald-400 group-hover:text-emerald-300 transition-colors">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/>
+                <polyline points="14 2 14 8 20 8"/>
+                <path d="M12 18v-6"/>
+                <path d="m9 15 3 3 3-3"/>
+              </svg>
+            </span>
+            <div>
+              <p className="text-white text-sm font-medium">Resume</p>
+              <p className="text-slate-400 text-xs">Download PDF</p>
             </div>
           </a>
         </div>
