@@ -76,7 +76,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 font-sans">
-      <Navbar activeSection={activeSection} />
+      <Navbar activeSection={activeSection} onNavigate={setActiveSection} />
 
       {/* Hero */}
       <section id="home" className="flex flex-col items-center justify-center min-h-[80vh] text-center px-6">

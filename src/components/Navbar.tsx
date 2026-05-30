@@ -1,10 +1,11 @@
 type NavbarProps = {
   activeSection: string;
+  onNavigate: (section: string) => void;
 };
 
 const navLinks = ["home", "experience", "projects", "about", "contact"];
 
-export default function Navbar({ activeSection }: NavbarProps) {
+export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-4 bg-slate-950/80 backdrop-blur-sm border-b border-slate-800">
       <span className="text-white font-bold text-lg tracking-tight">
@@ -15,7 +16,7 @@ export default function Navbar({ activeSection }: NavbarProps) {
         {navLinks.map((link) => (
           <button
             key={link}
-            onClick={() => document.getElementById(link)?.scrollIntoView({ behavior: "smooth" })}
+            onClick={() => { onNavigate(link); document.getElementById(link)?.scrollIntoView({ behavior: "smooth" }); }}
             className={`capitalize text-sm transition-colors duration-150 ${
               activeSection === link
                 ? "text-emerald-400"
