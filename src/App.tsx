@@ -39,19 +39,19 @@ const projects = [
   {
     title: "Portfolio Website",
     description: "The very site you're looking at — built with Vite, React, and Tailwind CSS.",
-    tags: ["React", "TypeScript", "Tailwind"],
+    tags: ["React", "TypeScript", "Tailwind", "Vite"],
     link: "https://www.isabellagingrich.com/",
   },
   {
     title: "Lorem Ipsum",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    tags: ["React", "Zustand", "Tailwind"],
+    tags: ["Lorem", "ipsum", "dolor"],
     link: "https://github.com",
   },
   {
     title: "Lorem Ipsum",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    tags: ["Vite", "React", "Tailwind"],
+    tags: ["Lorem", "ipsum", "dolor"],
     link: "https://github.com",
   },
 ];
