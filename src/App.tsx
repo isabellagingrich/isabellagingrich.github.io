@@ -81,7 +81,7 @@ export default function App() {
       {/* Hero */}
       <section id="home" className="flex flex-col items-center justify-center min-h-[80vh] text-center px-6">
         <p className="text-emerald-400 text-sm uppercase tracking-widest mb-4">
-          Available for work
+          {/*Available for work*/}
         </p>
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
           Isabella Gingrich<br />
