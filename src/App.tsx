@@ -40,7 +40,7 @@ const projects = [
     title: "Portfolio Website",
     description: "The very site you're looking at — built with Vite, React, and Tailwind CSS.",
     tags: ["React", "TypeScript", "Tailwind", "Vite"],
-    link: "https://www.isabellagingrich.com/",
+    link: "https://github.com/isabellagingrich/isabellagingrich.github.io",
   },
   {
     title: "Lorem Ipsum",
