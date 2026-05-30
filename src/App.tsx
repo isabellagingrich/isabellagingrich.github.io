@@ -88,7 +88,7 @@ export default function App() {
           <span className="text-slate-400"></span>
         </h1>
         <p className="text-slate-400 text-lg max-w-xl mb-10">
-          A software engineer with 4+ years of experience developing and maintaining full-stack applications in .Net.
+          A software engineer with 4+ years of experience developing and maintaining full-stack applications in .NET.
         </p>
         <div className="flex gap-4">
           <button
@@ -98,7 +98,7 @@ export default function App() {
             View Projects
           </button>
           <a
-            href="mailto:hello@example.com"
+            href="mailto:isabella@isabellagingrich.com"
             className="px-6 py-3 border border-slate-700 hover:border-slate-400 rounded-lg transition-colors duration-200"
           >
             Contact Me
