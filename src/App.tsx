@@ -21,16 +21,17 @@ const skills = [
 
 const experience = [
   {
-    title: "Solution Specialist",
+    title: "Delivery Consultant, Software Engineering Solutions",
     company: "Deloitte",
     location: "Mechanicsburg, PA",
     period: "January 2022 – Present",
     bullets: [
-      "Collaborated in an Agile Scrum team supporting maintenance and enhancement releases across 5+ enterprise applications, delivering fixes across the full stack including frontend (JavaScript, TypeScript, Razor) and backend services (C#, VB.NET, SQL).",
-      "Executed production release validation and deployment verification to ensure successful and stable releases.",
-      "Triaged and investigated production incidents by analyzing application behavior, reviewing logs and source code, and performing SQL-based analysis to identify root causes and determine solutions.",
-      "Owned key client-facing processes as the primary contact for file processing, report generation, issue resolution, and data management. Acted as lead developer for a core client application.",
-      "Developed hundreds of SQL scripts to rectify data errors at clients' request and created reusable templates to reduce manual effort needed for data management.",
+      "Serve as primary developer for a production application, owning triage, research, coding, and change requests, with minimal oversight.",
+      "Extend support to the broader application portfolio (5+ systems), contributing full-stack fixes and enhancements through 4+ maintenance releases per year, cross-application bug research, and recurring regression/QA testing.",
+      "Led technical upgrade initiatives across 5 environments, implementing changes, coordinating testing, deployments and resolving errors. Created a tracker of ongoing team-wide initiatives, statuses and blockers, eliminating redundant status check-ins.",
+      "Act as primary point of contact for file processing, report generation and data management on that application, resolving data errors through 500+ SQL scripts, developing custom and reusable templates to cut manual effort.",
+      "Mentored a junior developer, assisting with onboarding, providing application walkthroughs and knowledge transfers.",
+      "Triage and resolve production incidents by analyzing application behavior, reviewing logs and source code to identify root causes and solutions, providing additional support with log and SQL-based analysis to identify affected data."
     ],
   },
 ];
